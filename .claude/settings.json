@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build*)",
+      "Bash(dotnet test*)",
+      "Bash(dotnet restore*)",
+      "Bash(dotnet add package*)",
+      "Bash(dotnet new*)",
+      "Bash(dotnet ef*)",
+      "Bash(npm install*)",
+      "Bash(npm run*)",
+      "Bash(npm test*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git checkout*)",
+      "Bash(git branch*)",
+      "Bash(git push*)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Edit(src/**)",
+      "Edit(tests/**)",
+      "Edit(web/**)",
+      "Edit(*.md)",
+      "WebFetch(domain:learn.microsoft.com)",
+      "WebFetch(domain:nuget.org)"
+    ],
+    "deny": [
+      "Bash(rm -rf*)",
+      "Bash(sudo*)",
+      "Bash(git push* --force*)",
+      "Bash(git push* -f*)",
+      "Edit(.github/workflows/**)",
+      "Edit(.claude/settings.json)",
+      "Edit(**/*.env)",
+      "Edit(**/appsettings.*.json)"
+    ]
+  }
+}

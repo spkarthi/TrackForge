@@ -1,0 +1,27 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+appsettings.Development.json
+appsettings.*.local.json
+
+## Node / React
+node_modules/
+dist/
+build/
+.vite/
+
+## Environment / secrets
+.env
+.env.*
+
+## OS / editor
+.DS_Store
+.idea/
+*.swp
+
+## Logs
+*.log
+logs/
